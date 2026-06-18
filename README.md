@@ -1,6 +1,6 @@
 # AI Business Engine 🤖💰
 
-[![CI](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed-Vercel-000?logo=vercel&logoColor=white)](https://web-gamma-nine-c2cqi2h058.vercel.app)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://web-gamma-nine-c2cqi2h058.vercel.app)
 
