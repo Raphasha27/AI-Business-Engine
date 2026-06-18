@@ -2,8 +2,11 @@
 
 [![CI](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml/badge.svg)](https://github.com/Raphasha27/AI-Business-Engine/actions/workflows/ci.yml)
 [![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)](https://python.org)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=vercel)](https://web-gamma-nine-c2cqi2h058.vercel.app)
 
 **Zero-capital AI-powered businesses for South African entrepreneurs.**
+
+> **Try the interactive demo:** [https://web-gamma-nine-c2cqi2h058.vercel.app](https://web-gamma-nine-c2cqi2h058.vercel.app)
 
 A complete playbook of 5 AI businesses you can start today with zero money. Each business uses free AI tools, free hosting, and free platforms to generate income from day one.
 
