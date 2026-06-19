@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Business Engine | Zero-Capital Playbooks for SA</title>
+<style>
+:root {
+  --primary: #4F46E5;
+  --primary-dark: #3730A3;
+  --secondary: #10B981;
+  --bg-dark: #0F172A;
+  --bg-card: #1E293B;
+  --text-main: #F8FAFC;
+  --text-muted: #94A3B8;
+  --accent: #F59E0B;
+}
+* { margin:0; padding:0; box-sizing:border-box; font-family: 'Inter', system-ui, sans-serif; }
+body { background: var(--bg-dark); color: var(--text-main); line-height: 1.6; }
+.container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+header { border-bottom: 1px solid rgba(255,255,255,0.1); padding: 20px 0; }
+.nav-flex { display: flex; justify-content: space-between; align-items: center; }
+.logo { font-size: 1.5rem; font-weight: 800; color: white; display: flex; align-items: center; gap: 10px; }
+.logo span { color: var(--primary); }
+.hero { text-align: center; padding: 80px 0 60px; }
+.hero h1 { font-size: clamp(2rem, 5vw, 4rem); font-weight: 900; line-height: 1.2; margin-bottom: 20px; background: linear-gradient(to right, #818CF8, #C084FC); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+.hero p { font-size: 1.2rem; color: var(--text-muted); max-width: 600px; margin: 0 auto 30px; }
+.btn { display: inline-block; background: var(--primary); color: white; padding: 14px 28px; border-radius: 8px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: 0.3s; }
+.btn:hover { background: var(--primary-dark); transform: translateY(-2px); }
+.btn-accent { background: var(--secondary); }
+.btn-accent:hover { background: #059669; }
+.playbooks { padding: 40px 0; }
+.section-title { text-align: center; font-size: 2rem; margin-bottom: 40px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 24px; }
+.card { background: var(--bg-card); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 24px; transition: 0.3s; position: relative; overflow: hidden; }
+.card:hover { border-color: var(--primary); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+.card-icon { font-size: 2.5rem; margin-bottom: 16px; }
+.card h3 { font-size: 1.2rem; margin-bottom: 10px; }
+.card p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 20px; }
+.badge { display: inline-block; background: rgba(16, 185, 129, 0.2); color: var(--secondary); padding: 4px 8px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; margin-bottom: 16px; }
+.locked-badge { background: rgba(245, 158, 11, 0.2); color: var(--accent); }
+.pricing { padding: 80px 0; background: rgba(0,0,0,0.2); margin-top: 60px; }
+.pricing-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; max-width: 900px; margin: 0 auto; }
+.pricing-card { background: var(--bg-card); border-radius: 16px; padding: 40px; border: 1px solid rgba(255,255,255,0.05); }
+.pricing-card.popular { border-color: var(--primary); position: relative; }
+.pricing-card.popular::before { content: 'Most Popular'; position: absolute; top: 0; left: 50%; transform: translate(-50%, -50%); background: var(--primary); color: white; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; font-weight: bold; }
+.price { font-size: 3rem; font-weight: 800; margin: 20px 0; }
+.price span { font-size: 1rem; color: var(--text-muted); font-weight: normal; }
+.features { list-style: none; margin: 30px 0; }
+.features li { margin-bottom: 12px; display: flex; align-items: center; gap: 10px; color: var(--text-muted); }
+.features li i { color: var(--secondary); font-style: normal; font-weight: bold; }
+footer { text-align: center; padding: 40px 0; color: var(--text-muted); border-top: 1px solid rgba(255,255,255,0.1); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="container nav-flex">
+    <div class="logo">🚀 AI Business <span>Engine</span></div>
+    <a href="#pricing" class="btn btn-accent">Get Access</a>
+  </div>
+</header>
+
+<section class="hero container">
+  <h1>Launch a Zero-Capital AI Business Today.</h1>
+  <p>5 complete playbooks designed for South African entrepreneurs. Use free AI tools to build profitable income streams with no startup capital.</p>
+  <div style="display: flex; gap: 16px; justify-content: center;">
+    <a href="#playbooks" class="btn">View Playbooks</a>
+    <a href="#pricing" class="btn" style="background: transparent; border: 1px solid var(--text-muted);">See Pricing</a>
+  </div>
+</section>
+
+<section id="playbooks" class="playbooks container">
+  <h2 class="section-title">The 5 Playbooks</h2>
+  <div class="grid">
+    <div class="card">
+      <div class="badge">Free Preview</div>
+      <div class="card-icon">✍️</div>
+      <h3>AI Content Studio</h3>
+      <p>Start a content marketing agency using AI writing tools. Perfect for absolute beginners.</p>
+      <a href="#" class="btn" style="width:100%; text-align:center; padding:10px;">Read Playbook</a>
+    </div>
+    <div class="card">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">⚙️</div>
+      <h3>AI Automation Agency</h3>
+      <p>Automate workflows for SMMEs using Zapier and AI. High ticket monthly retainers.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Playbook</a>
+    </div>
+    <div class="card">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">🛍️</div>
+      <h3>AI Digital Products</h3>
+      <p>Generate templates, artwork, and ebooks to sell on digital marketplaces.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Playbook</a>
+    </div>
+    <div class="card">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">🏢</div>
+      <h3>AI Consulting for SMMEs</h3>
+      <p>Help local township businesses adopt AI tools to save time and reduce costs.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Playbook</a>
+    </div>
+    <div class="card">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">🎓</div>
+      <h3>AI Training & Workshops</h3>
+      <p>Host weekend masterclasses on using AI for students, job seekers, and business owners.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Playbook</a>
+    </div>
+  </div>
+</section>
+
+<section id="resources" class="playbooks container" style="padding-top: 0;">
+  <h2 class="section-title">Pro Resources 🔒</h2>
+  <div class="grid">
+    <div class="card" style="border-color: rgba(245, 158, 11, 0.3);">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">🇿🇦</div>
+      <h3>SA Client Proposal Templates</h3>
+      <p>Fill-in-the-blank proposals with ZAR pricing strategies tailored for the local SMME and township economy.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Access</a>
+    </div>
+    <div class="card" style="border-color: rgba(245, 158, 11, 0.3);">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">💳</div>
+      <h3>Payment Gateway Playbook</h3>
+      <p>Step-by-step guides for integrating PayFast, Yoco, and Peach Payments without registering a formal company.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Access</a>
+    </div>
+    <div class="card" style="border-color: rgba(245, 158, 11, 0.3);">
+      <div class="badge locked-badge">🔒 Pro</div>
+      <div class="card-icon">🤖</div>
+      <h3>WhatsApp Bot Templates</h3>
+      <p>Ready-to-use flows for WhatsApp automation—the most critical channel for South African customer service.</p>
+      <a href="#pricing" class="btn" style="width:100%; text-align:center; padding:10px; background:rgba(255,255,255,0.1); color:white;">Unlock Access</a>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" class="pricing">
+  <div class="container">
+    <h2 class="section-title">Start Your AI Journey</h2>
+    <div class="pricing-grid">
+      <div class="pricing-card">
+        <h3>Starter</h3>
+        <p style="color:var(--text-muted); margin-top:10px;">For those testing the waters.</p>
+        <div class="price">Free</div>
+        <ul class="features">
+          <li><i>✓</i> 1 Full Playbook (Content Studio)</li>
+          <li><i>✓</i> Basic Tool Directory</li>
+          <li><i>✓</i> Community Access</li>
+        </ul>
+        <button class="btn" style="width:100%; background:transparent; border:1px solid var(--primary); color:white;">Get Started</button>
+      </div>
+      <div class="pricing-card popular">
+        <h3>Full Engine Access</h3>
+        <p style="color:var(--text-muted); margin-top:10px;">Everything you need to build & scale.</p>
+        <div class="price">R499<span>/once-off</span></div>
+        <ul class="features">
+          <li><i>✓</i> All 5 Business Playbooks</li>
+          <li><i>✓</i> SA Client Proposal Templates</li>
+          <li><i>✓</i> Yoco & PayFast Integration Guides</li>
+          <li><i>✓</i> WhatsApp Bot Automation Flows</li>
+          <li><i>✓</i> Private SA Founders Discord</li>
+        </ul>
+        <button class="btn" style="width:100%;" onclick="alert('Redirecting to PayFast (Demo)')">Buy Now</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© 2026 AI Business Engine by Kirov Dynamics. All rights reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -52,6 +52,15 @@ A complete playbook of 5 AI businesses you can start today with zero money. Each
                └──────────────┘
 ```
 
+## Interactive Demo & SA Premium Resources
+
+The [live interactive demo](https://web-gamma-nine-c2cqi2h058.vercel.app) features our full tiered strategy, guiding users from the free tier to **Full Engine Access**. 
+
+The premium tier is specifically tailored to the South African market and unlocks:
+- **Local Payment Gateways:** Step-by-step guides on integrating PayFast, Yoco, and Peach Payments without a registered company.
+- **Client Outreach Templates:** Plug-and-play SA-specific client proposals and legal contracts.
+- **WhatsApp Bot Templates:** Ready-to-use automation flows for WhatsApp—the most critical channel for SA customer service.
+
 ## 🚀 How to Use This
 
 1. **Pick one business** from the 5 playbooks
